@@ -4,14 +4,12 @@ import Github from './Github.jsx';
 import Techstack from './Techstack.jsx';
 import laptopImg from "../../assets/about.png";
 import Toolstack from './Toolstack.jsx';
-import Particle from '../Particle.jsx'
 import AboutCard from './Aboutcard.jsx';
 
 
 const About = () => {
   return (
     <Container fluid className="about-section">
-     <Particle/>
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col

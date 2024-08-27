@@ -93,7 +93,7 @@ const NavBar = () => {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} />Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -109,7 +109,7 @@ const NavBar = () => {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="#"
+                href="https://github.com/Ankitkpk/portpolio_website"
                 target="_blank"
                 className="fork-btn-inner"
               >

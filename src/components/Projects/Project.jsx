@@ -1,15 +1,13 @@
 import React from 'react'
 import {Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import editor from "../../assets/Projects/codeEditor.png";
-import chatify from "../../assets/Projects/chatify.png";
-import bitsOfCode from "../../assets/Projects/blog.png";
+import  school_website from "../../assets/Projects/school_website.png";
+import bitsOfCode from "../../assets/Projects/portpolio_website.png";
 
 const Project = () => {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
@@ -20,12 +18,12 @@ const Project = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={school_website}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="School website"
+              description="professional School Wesite Using Html ,Css ,Js and React js."
+              ghLink="https://github.com/Ankitkpk/School_website"
+              demoLink="https://school-website-wtjh.vercel.app/"
             />
           </Col>
 
@@ -33,9 +31,9 @@ const Project = () => {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Portpolio website"
+              description="Portpolio Website Built with React js"
+              ghLink="https://github.com/Ankitkpk/portpolio_website"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -44,10 +42,12 @@ const Project = () => {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Fullstack app"
+              description="This is a full-stack Web Application Built With The MERN (MongoDB,
+        Express, React, Node.js) stack. It includes authentication features that
+        allow users to sign up, log in, and log out, and provides access to
+        protected routes only for authenticated users."
+              ghLink="https://github.com/Ankitkpk/fullstack_app"             
             />
           </Col>
         </Row>
