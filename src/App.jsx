@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react'
 import Preloader from "../src/components/Pre";
 import About from './components/About/About.jsx';
 import Home from './components/Home/Home.jsx';
-import NavBar from './components/Navbar.jsx';
+import NavBar from './components/NavBar.jsx';
 import Footer from './components/Footer.jsx';
 import "./style.css";
 import "./App.css";
