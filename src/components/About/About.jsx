@@ -4,7 +4,7 @@ import Github from './Github.jsx';
 import Techstack from './Techstack.jsx';
 import laptopImg from "../../assets/about.png";
 import Toolstack from './Toolstack.jsx';
-import AboutCard from './Aboutcard.jsx';
+import AboutCard from './AboutCard.jsx';
 
 
 const About = () => {
