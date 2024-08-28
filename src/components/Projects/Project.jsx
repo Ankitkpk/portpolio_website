@@ -34,7 +34,7 @@ const Project = () => {
               title="Portpolio website"
               description="Portpolio Website Built with React js"
               ghLink="https://github.com/Ankitkpk/portpolio_website"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://portpolio-website-js67.vercel.app/"
             />
           </Col>
 
