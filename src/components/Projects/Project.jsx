@@ -42,12 +42,12 @@ const Project = () => {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Fullstack app"
-              description="This is a full-stack Web Application Built With The MERN (MongoDB,
+              title="Real estate app"
+              description="This is a real estate listing app Built With The MERN (MongoDB,
         Express, React, Node.js) stack. It includes authentication features that
-        allow users to sign up, log in, and log out, and provides access to
-        protected routes only for authenticated users."
-              ghLink="https://github.com/Ankitkpk/fullstack_app"             
+        allow users to sign up, sign in, and sign out.state management using redux."
+              ghLink="https://github.com/Ankitkpk/Real-Estate" 
+              demoLink="https://real-estate-kv6m.onrender.com/"            
             />
           </Col>
         </Row>
